@@ -1,7 +1,33 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.0-dev.1",
+  "version": "1.0.0-dev.2",
   "patches": [
+    {
+      "name": "Fix Projectivy backup import",
+      "description": "Allows Projectivy Launcher 4.68 settings backups from the original build to import after rebuilding or re-signing.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "com.spocky.projengmenu",
+          "name": "Projectivy Launcher",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#607D8B",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "4.68",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
     {
       "name": "Set minimum SDK to 30",
       "description": "Changes the application's minimum Android SDK to API 30.",
