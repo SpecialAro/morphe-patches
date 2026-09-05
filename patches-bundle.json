@@ -1,7 +1,7 @@
 {
-  "created_at": "",
-  "description": "",
-  "download_url": "",
+  "created_at": "2026-09-03T16:52:21",
+  "description": "## [1.0.0-dev.2](https://github.com/SpecialAro/morphe-patches/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2026-09-03)\n\n### 🐛 Bug Fixes\n\n* **projectivy:** allow importing original backups in custom signed build ([82201d2](https://github.com/SpecialAro/morphe-patches/commit/82201d2ce1a6951a51300482705be358cccee92b))",
+  "download_url": "https://github.com/SpecialAro/morphe-patches/releases/download/v1.0.0-dev.2/patches-1.0.0-dev.2.mpp",
   "signature_download_url": "",
-  "version": ""
+  "version": "1.0.0-dev.2"
 }
